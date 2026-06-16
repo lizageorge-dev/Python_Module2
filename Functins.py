@@ -78,24 +78,18 @@ try:
     print('The reciprocal of', value, 'is', 1/value)        
 except:
     print('I do not know what to do.')
-
-
-"""
-alpha = [4, 8, 15, 16, 23, 42]
+    #########################################
+    alpha = [4, 8, 15, 16, 23, 42]
 beta = alpha[:]
 beta[2] = 99
 print(alpha)  # outputs: [4, 8, 15, 16, 23, 42]
 print(beta)   # outputs: [4, 8, 99, 16,
 
-
-
-
-
-
-
-
-
-
+"""
+for i in range(5):
+    if i % 2 == 0:
+        continue
+    print(i, end=" ")
 
 
 
